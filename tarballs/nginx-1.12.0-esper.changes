@@ -1,0 +1,6 @@
+The compilation flag -Werror was disabled by commenting out
+the following lines:
+
+nginx-1.12.0-esper/auto/cc/clang:CFLAGS="$CFLAGS -Werror"
+nginx-1.12.0-esper/auto/cc/gcc:CFLAGS="$CFLAGS -Werror"
+nginx-1.12.0-esper/auto/cc/icc:CFLAGS="$CFLAGS -Werror"
